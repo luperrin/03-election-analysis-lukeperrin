@@ -6,9 +6,11 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("..", "Resources", "election_results.csv")
+# file_to_load = os.path.join("..", "Resources", "election_results.csv")
+file_to_load = 'Resources/election_results.csv'
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+# file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = 'Resources/election_analysis.csv'
 
 # Initialize a total vote counter.
 total_votes = 0
@@ -18,7 +20,16 @@ candidate_options = []
 candidate_votes = {}
 
 # 1: Create a county list and county votes dictionary.
+counties = ["Arapahoe","Denver","Jefferson"]
+counties_dict = {}
+counties_dict["Arapahoe"] = 422829
+counties_dict["Jefferson"] = 432438
+counties_dict["Denver"] = 463353
 
+voting_data = []
+voting_data.append({"county":"Arapahoe", "registered_voters": 422829})
+voting_data.append({"county":"Denver", "registered_voters": 463353})
+voting_data.append({"county":"Jefferson", "registered_voters": 432438})
 
 
 # Track the winning candidate, vote count and percentage
