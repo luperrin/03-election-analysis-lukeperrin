@@ -14,11 +14,11 @@ The python script, [PyPoll.py](https://github.com/luperrin/03-election-analysis-
 
 1. Output to the terminal:
 
-   ![PyPoll_terminal_output](PyPoll_terminal_output.png)![]()
+   ![PyPoll_terminal_output](Resources/PyPoll_terminal_output.png)![]()
 
 2. Output to [election_analysis.txt](https://github.com/luperrin/03-election-analysis-lukeperrin/blob/main/Analysis/election_analysis.txt):
 
-   <img src="PyPoll_txt_ouput.png" alt="PyPoll_txt_ouput" style="zoom:50%;" />![]()
+   <img src="Resources/PyPoll_txt_ouput.png" alt="PyPoll_txt_ouput" style="zoom:50%;" />![]()
 
 As indicated by both outputs, the following conclusions can be drawn:
 
